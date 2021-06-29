@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#logo {
+    color: #333333;
+    position: absolute;
+    font-family: 'Inconsolata';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25.18px;
+    top: 25px;
+    left: 45px;
+    letter-spacing: -0.08em;
+}
+
+main {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 200px;
+    justify-content: space-between;
+}
+
+#main{
+    display: flex;
+}
+
+#espantaDiv {
+    margin: auto;
+    position: relative;
+}
+
+#espantalho {
+    width: 540px;
+    height: 450px;
+    margin: auto;
+}
+
+#pageDiv {
+    margin: auto;
+    position: relative;
+    left: 15px;
+    top: 35px;
+}
+
+#badNews {
+    color: #333333;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94.78px;
+    margin-top: 0px;
+    width: 600px;
+}
+
+#descricao {
+    color: #4F4F4F;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    width: 381px;
+    height: 108px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    margin-bottom: 36px;
+}
+
+#botao {
+    
+    font-family: 'Space Mono';
+    color: white;
+    background: #333333;
+    border: none;
+    width: 216px;
+    height: 68px;
+    font-size: 14px;
+    margin-bottom: 85px;
+}
+
+footer{
+    display: block;
+    color: #BDBDBD;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    width: fit-content;
+    margin: auto;
+    
+}
+
+@media (max-width: 1155px){
+    #espantalho{
+        width: 400px;
+        height: 350px;
+    }
+    #badNews{
+        font-size: 50px;
+        width: 500px;
+        line-height: 80px;
+    }
+    #descricao{
+        font-size: 20px;
+        width: 350px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    #botao{
+        width: 175px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 900px){
+    #logo{
+        margin: 0px;
+        left: 24px;
+        top: 20px;
+    }
+    main {
+        top: 80px;
+    }
+    #main{
+        display: block;
+    }
+    #espantalho{
+        display: block;
+        left: 11.73%;
+        right: 11.78%;
+        width: 290px;
+        height: 250px;
+    }
+    #pageDiv{
+        margin: auto;
+        width: fit-content;
+        left: 55px;
+    }
+    #badNews {
+        width: 355px;
+        height: 142px;
+        font-size: 48px;
+        line-height: 71.09px;
+        margin-bottom: 30px;
+        margin-right: 55px;
+    }
+    #descricao{
+        margin: 0px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26.66px;
+        width: 328px;
+    }
+    #botao{
+        margin-top: 0px;
+        position: relative;
+
+    }
+
+}
