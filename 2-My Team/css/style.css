@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1195px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tamanho {
+    width: 300px;
+    height: 400px;
+}
+
+.inside {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+}
+
+img {
+    width: 240px;
+    height: 340px;
+}
+
+header {
+    margin-top: 110px;
+    display: flex;
+    height: 215px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#titulo {
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 47.7px;
+    letter-spacing: -4.5%;
+    transform: translateY(-15px);
+}
+
+header>div>h3 {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+header>div>p {
+    font-family: 'Poppins';
+    width: 370px;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.img_descricao {
+    display: flex;
+}
+
+.lado {
+    font-family: 'PT Serif';
+    font-size: 12px;
+    width: max-content;
+    transform: rotate(90deg);
+}
+
+#own {
+    transform: translateX(-29px) translateY(35px) rotate(90deg);
+}
+
+#art {
+    transform: translateX(-23px) translateY(26px) rotate(90deg);
+}
+
+#tech {
+    transform: translateX(-18px) translateY(20px) rotate(90deg);
+}
+
+#ux {
+    transform: translateX(-24px) translateY(28px) rotate(90deg);
+}
+
+#dev {
+    transform: translateX(-17px) translateY(21px) rotate(90deg);
+}
+
+.nome {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.abaixo {
+    margin-top: 100px;
+}
+
+@media (max-width: 914px) {
+    header {
+        display: block;
+        text-align: center;
+    }
+
+    header>div>p {
+        margin: auto;
+    }
+
+    .abaixo {
+        margin-top: 0px;
+    }
+
+    .direita {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:614px) {
+
+    .abaixo {
+        margin-top: 0px;
+    }
+
+    .direita {
+        margin-top: 0px;
+    }
+}
